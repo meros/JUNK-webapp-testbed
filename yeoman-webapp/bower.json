@@ -1,5 +1,5 @@
 {
-  "name": "js-bower-testbed",
+  "name": "yeoman-webapp",
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0"
