@@ -1,0 +1,35 @@
+// install dependencies (npm and node required)
+
+sudo npm install -g yo bower grunt-cli gulp
+
+// install webapp generator for yeoman
+sudo npm install -g generator-webapp
+
+// Run yo to create webapp scaffold
+yo webapp
+[?] ==========================================================================
+We're constantly looking for ways to make yo better! 
+May we anonymously report usage statistics to improve the tool over time? 
+More info: https://github.com/yeoman/insight & http://yeoman.io
+==========================================================================: Yes
+
+     _-----_
+    |       |    .--------------------------.
+    |--(o)--|    |    Welcome to Yeoman,    |
+   `---------´   |   ladies and gentlemen!  |
+    ( _´U`_ )    '--------------------------'
+    /___A___\    
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+Out of the box I include HTML5 Boilerplate, jQuery, and a Gruntfile.js to build your app.
+? What more would you like? Bootstrap, Sass
+? Would you like to use libsass? Read up more at 
+https://github.com/andrew/node-sass#node-sass: Yes
+
+// install modules
+bower install & npm install
+
+// Test
+grunt serve
